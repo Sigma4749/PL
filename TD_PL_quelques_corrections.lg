@@ -1,0 +1,989 @@
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: tctt font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: cmmi font-style: italic;
+htfcss: cmmib font-style: italic; font-weight: bold;
+File: TD_PL_quelques_corrections.html
+File: TD_PL_quelques_corrections.css
+File: TD_PL_quelques_corrections.tmp
+Css: p{margin-top:0;margin-bottom:0}
+Css: p.indent{text-indent:0;}
+Css: p + p{margin-top:1em;}
+Css: p + div, p + pre {margin-top:1em;}
+Css: div + p, pre + p {margin-top:1em;}
+Css: a { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hyphens: auto; }
+Css: @media print {div.crosslinks {visibility:hidden;}}
+Css: a img { border-top: 0; border-left: 0; border-right: 0; }
+Font_Css("4"): .small-caps{font-variant: small-caps; }
+Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
+Font_Css("12"): .htf-calligraphy {font-family:cursive}
+Font_Css("14"): .htf-italic {font-style: italic;}
+Font_Css("16"): .htf-bold {font-weight: bold;}
+Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; }
+Css: center { margin-top:1em; margin-bottom:1em; }
+Css: td center { margin-top:0em; margin-bottom:0em; }
+Css: .Canvas { position:relative; }
+Css: img.math{vertical-align:middle;}
+Css: div.par-math-display, div.math-display{text-align:center;}
+Css: li p.indent { text-indent: 0em }
+Css: li p:first-child{ margin-top:0em; }
+Css: li p:last-child, li div:last-child { margin-bottom:0.5em; }
+Css: li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+Css: .enumerate1 {list-style-type:decimal;}
+Css: .enumerate2 {list-style-type:lower-alpha;}
+Css: .enumerate3 {list-style-type:lower-roman;}
+Css: .enumerate4 {list-style-type:upper-alpha;}
+Css: div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+Css: .obeylines-h,.obeylines-v {white-space: nowrap; }
+Css: div.obeylines-v p { margin-top:0; margin-bottom:0; }
+Css: .overline{ text-decoration:overline; }
+Css: .overline img{ border-top: 1px solid black; }
+Css: td.displaylines {text-align:center; white-space:nowrap;}
+Css: .centerline {text-align:center;}
+Css: .rightline {text-align:right;}
+Css: pre.verbatim {font-family: monospace,monospace; text-align:left; clear:both; }
+Css: .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.fbox {display:table}
+Css: div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.minipage{width:100%;}
+Css: div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+Css: div.center div {text-align: left;}
+Css: div.flushright, div.flushright div.flushright {text-align: right;}
+Css: div.flushright div {text-align: left;}
+Css: div.flushleft {text-align: left;}
+Css: .underline{ text-decoration:underline; }
+Css: .underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+Css: .framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: .framebox-c {text-align:center;}
+Css: .framebox-l {text-align:left;}
+Css: .framebox-r {text-align:right;}
+Css: span.thank-mark{ vertical-align: super }
+Css: span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+Css: table.tabular td p{margin-top:0em;}
+Css: table.tabular {margin-left: auto; margin-right: auto;}
+Css: td p:first-child{ margin-top:0em; }
+Css: td p:last-child{ margin-bottom:0em; }
+Css: div.td00{ margin-left:0pt; margin-right:0pt; }
+Css: div.td01{ margin-left:0pt; margin-right:5pt; }
+Css: div.td10{ margin-left:5pt; margin-right:0pt; }
+Css: div.td11{ margin-left:5pt; margin-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: td.td00{ padding-left:0pt; padding-right:0pt; }
+Css: td.td01{ padding-left:0pt; padding-right:5pt; }
+Css: td.td10{ padding-left:5pt; padding-right:0pt; }
+Css: td.td11{ padding-left:5pt; padding-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: .hline hr, .cline hr{ height : 0px; margin:0px; }
+Css: .hline td, .cline td{ padding: 0; }
+Css: .hline hr, .cline hr{border:none;border-top:1px solid black;}
+Css: .tabbing-right {text-align:right;}
+Css: div.float, div.figure {margin-left: auto; margin-right: auto;}
+Css: div.float img {text-align:center;}
+Css: div.figure img {text-align:center;}
+Css: .marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+Css: .marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+Css: .reversemarginpar{float:left;}
+Css: table.equation {width:100%;}
+Css: .equation td{text-align:center; }
+Css: td.equation { margin-top:1em; margin-bottom:1em; } 
+Css: td.equation-label { width:5%; text-align:center; }
+Css: td.eqnarray4 { width:5%; white-space: normal; }
+Css: td.eqnarray2 { width:5%; }
+Css: table.eqnarray-star, table.eqnarray {width:100%;}
+Css: div.eqnarray{text-align:center;}
+Css: div.array {text-align:center;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.pmatrix img{vertical-align:middle;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.bar-css {text-decoration:overline;}
+Css: img.cdots{vertical-align:middle;}
+Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+Css: table.tabular td p{margin-top:0em;}
+Css: table.tabular {margin-left: auto; margin-right: auto;}
+Css: td p:first-child{ margin-top:0em; }
+Css: td p:last-child{ margin-bottom:0em; }
+Css: div.td00{ margin-left:0pt; margin-right:0pt; }
+Css: div.td01{ margin-left:0pt; margin-right:5pt; }
+Css: div.td10{ margin-left:5pt; margin-right:0pt; }
+Css: div.td11{ margin-left:5pt; margin-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: td.td00{ padding-left:0pt; padding-right:0pt; }
+Css: td.td01{ padding-left:0pt; padding-right:5pt; }
+Css: td.td10{ padding-left:5pt; padding-right:0pt; }
+Css: td.td11{ padding-left:5pt; padding-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: .hline hr, .cline hr{ height : 0px; margin:0px; }
+Css: .hline td, .cline td{ padding: 0; }
+Css: .hline hr, .cline hr{border:none;border-top:1px solid black;}
+Css: div.array {text-align:center;}
+Css: .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+Css: .chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
+Css: .index-item, .index-subitem, .index-subsubitem {display:block}
+Css: div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+Css: div.caption span.id{font-weight: bold; white-space: nowrap; }
+Css: h1.partHead{text-align: center}
+Css: p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: .paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
+Css: .subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+Css: .verse{white-space:nowrap; margin-left:2em}
+Css: div.maketitle {text-align:center;}
+Css: h2.titleHead{text-align:center;}
+Css: div.maketitle{ margin-bottom: 2em; }
+Css: div.author, div.date {text-align:center;}
+Css: div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
+Css: div.author{white-space: nowrap;}
+Css: div.abstract p {margin-left:5%; margin-right:5%;}
+Css: div.abstract {width:100%;}
+Css: .abstracttitle{text-align:center;margin-bottom:1em;}
+Css: .equation td{text-align:center; }
+Css: .equation-star td{text-align:center; }
+Css: table.equation-star { width:100%; }
+Css: table.equation { width:100%; }
+Css: table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:95%; margin-left:5%; white-space: nowrap;}
+Css: table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
+Css: td.align-label { width:5%; text-align:center; }
+Css: td.align-odd { text-align:right; padding-right:0.3em;}
+Css: td.align-even { text-align:left; padding-right:0.6em;}
+Css: table.multline, table.multline-star {width:100%;}
+Css: td.gather {text-align:center; }
+Css: table.gather {width:100%;}
+Css: div.gather-star {text-align:center;}
+Css: .rotatebox{display: inline-block;}
+Css: .lstlisting .label{margin-right:0.5em; }
+Css: div.lstlisting{font-family: monospace,monospace; white-space: nowrap; margin-top:0.5em; margin-bottom:0.5em; }
+Css: div.lstinputlisting{ font-family: monospace,monospace; white-space: nowrap; }
+Css: .lstinputlisting .label{margin-right:0.5em;}
+--- needs --- TD_PL_quelques_corrections.idv[2] ==> TD_PL_quelques_corrections0x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[3] ==> TD_PL_quelques_corrections1x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[4] ==> TD_PL_quelques_corrections2x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[6] ==> TD_PL_quelques_corrections3x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[7] ==> TD_PL_quelques_corrections4x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[8] ==> TD_PL_quelques_corrections5x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[9] ==> TD_PL_quelques_corrections6x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[11] ==> TD_PL_quelques_corrections7x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[12] ==> TD_PL_quelques_corrections8x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[13] ==> TD_PL_quelques_corrections9x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[15] ==> TD_PL_quelques_corrections10x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[16] ==> TD_PL_quelques_corrections11x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[17] ==> TD_PL_quelques_corrections12x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[18] ==> TD_PL_quelques_corrections13x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[20] ==> TD_PL_quelques_corrections14x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[21] ==> TD_PL_quelques_corrections15x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[22] ==> TD_PL_quelques_corrections16x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[23] ==> TD_PL_quelques_corrections17x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[24] ==> TD_PL_quelques_corrections18x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[25] ==> TD_PL_quelques_corrections19x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[26] ==> TD_PL_quelques_corrections20x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[27] ==> TD_PL_quelques_corrections21x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[28] ==> TD_PL_quelques_corrections22x.png ---
+File: TD01-04-c.png
+--- needs --- TD_PL_quelques_corrections.idv[30] ==> TD_PL_quelques_corrections23x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[31] ==> TD_PL_quelques_corrections24x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[32] ==> TD_PL_quelques_corrections25x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[34] ==> TD_PL_quelques_corrections26x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[35] ==> TD_PL_quelques_corrections27x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[36] ==> TD_PL_quelques_corrections28x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[37] ==> TD_PL_quelques_corrections29x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[38] ==> TD_PL_quelques_corrections30x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[39] ==> TD_PL_quelques_corrections31x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[40] ==> TD_PL_quelques_corrections32x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[41] ==> TD_PL_quelques_corrections33x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[42] ==> TD_PL_quelques_corrections34x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[43] ==> TD_PL_quelques_corrections35x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[44] ==> TD_PL_quelques_corrections36x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[45] ==> TD_PL_quelques_corrections37x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[47] ==> TD_PL_quelques_corrections38x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[48] ==> TD_PL_quelques_corrections39x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[49] ==> TD_PL_quelques_corrections40x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[50] ==> TD_PL_quelques_corrections41x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[51] ==> TD_PL_quelques_corrections42x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[52] ==> TD_PL_quelques_corrections43x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[53] ==> TD_PL_quelques_corrections44x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[54] ==> TD_PL_quelques_corrections45x.png ---
+File: TD01-09.png
+File: TD01-10.png
+File: TD01-11.png
+File: TD01-12.png
+File: TD01-13-b.png
+File: TD01-13-c.png
+File: TD01-14-b.png
+File: TD01-14-c.png
+File: TD01-14-d.png
+File: TD01-16-a.png
+--- needs --- TD_PL_quelques_corrections.idv[56] ==> TD_PL_quelques_corrections46x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[57] ==> TD_PL_quelques_corrections47x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[58] ==> TD_PL_quelques_corrections48x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[59] ==> TD_PL_quelques_corrections49x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[60] ==> TD_PL_quelques_corrections50x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[61] ==> TD_PL_quelques_corrections51x.png ---
+File: TD01-17-b.png
+File: TD02-01-a.png
+--- needs --- TD_PL_quelques_corrections.idv[63] ==> TD_PL_quelques_corrections52x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[64] ==> TD_PL_quelques_corrections53x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[66] ==> TD_PL_quelques_corrections54x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[67] ==> TD_PL_quelques_corrections55x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[68] ==> TD_PL_quelques_corrections56x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[69] ==> TD_PL_quelques_corrections57x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[70] ==> TD_PL_quelques_corrections58x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[71] ==> TD_PL_quelques_corrections59x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[72] ==> TD_PL_quelques_corrections60x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[73] ==> TD_PL_quelques_corrections61x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[74] ==> TD_PL_quelques_corrections62x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[75] ==> TD_PL_quelques_corrections63x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[76] ==> TD_PL_quelques_corrections64x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[77] ==> TD_PL_quelques_corrections65x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[78] ==> TD_PL_quelques_corrections66x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[79] ==> TD_PL_quelques_corrections67x.png ---
+File: TD02-02-a.png
+--- needs --- TD_PL_quelques_corrections.idv[81] ==> TD_PL_quelques_corrections68x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[82] ==> TD_PL_quelques_corrections69x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[83] ==> TD_PL_quelques_corrections70x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[84] ==> TD_PL_quelques_corrections71x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[85] ==> TD_PL_quelques_corrections72x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[86] ==> TD_PL_quelques_corrections73x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[87] ==> TD_PL_quelques_corrections74x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[88] ==> TD_PL_quelques_corrections75x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[89] ==> TD_PL_quelques_corrections76x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[90] ==> TD_PL_quelques_corrections77x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[92] ==> TD_PL_quelques_corrections78x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[93] ==> TD_PL_quelques_corrections79x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[94] ==> TD_PL_quelques_corrections80x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[95] ==> TD_PL_quelques_corrections81x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[96] ==> TD_PL_quelques_corrections82x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[97] ==> TD_PL_quelques_corrections83x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[98] ==> TD_PL_quelques_corrections84x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[99] ==> TD_PL_quelques_corrections85x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[100] ==> TD_PL_quelques_corrections86x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[101] ==> TD_PL_quelques_corrections87x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[102] ==> TD_PL_quelques_corrections88x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[103] ==> TD_PL_quelques_corrections89x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[104] ==> TD_PL_quelques_corrections90x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[105] ==> TD_PL_quelques_corrections91x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[106] ==> TD_PL_quelques_corrections92x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[107] ==> TD_PL_quelques_corrections93x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[108] ==> TD_PL_quelques_corrections94x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[109] ==> TD_PL_quelques_corrections95x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[110] ==> TD_PL_quelques_corrections96x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[111] ==> TD_PL_quelques_corrections97x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[112] ==> TD_PL_quelques_corrections98x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[113] ==> TD_PL_quelques_corrections99x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[115] ==> TD_PL_quelques_corrections100x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[116] ==> TD_PL_quelques_corrections101x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[117] ==> TD_PL_quelques_corrections102x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[118] ==> TD_PL_quelques_corrections103x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[119] ==> TD_PL_quelques_corrections104x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[120] ==> TD_PL_quelques_corrections105x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[121] ==> TD_PL_quelques_corrections106x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[122] ==> TD_PL_quelques_corrections107x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[123] ==> TD_PL_quelques_corrections108x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[124] ==> TD_PL_quelques_corrections109x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[125] ==> TD_PL_quelques_corrections110x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[126] ==> TD_PL_quelques_corrections111x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[127] ==> TD_PL_quelques_corrections112x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[129] ==> TD_PL_quelques_corrections113x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[130] ==> TD_PL_quelques_corrections114x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[131] ==> TD_PL_quelques_corrections115x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[132] ==> TD_PL_quelques_corrections116x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[133] ==> TD_PL_quelques_corrections117x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[134] ==> TD_PL_quelques_corrections118x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[135] ==> TD_PL_quelques_corrections119x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[136] ==> TD_PL_quelques_corrections120x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[137] ==> TD_PL_quelques_corrections121x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[138] ==> TD_PL_quelques_corrections122x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[139] ==> TD_PL_quelques_corrections123x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[140] ==> TD_PL_quelques_corrections124x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[141] ==> TD_PL_quelques_corrections125x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[142] ==> TD_PL_quelques_corrections126x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[143] ==> TD_PL_quelques_corrections127x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[144] ==> TD_PL_quelques_corrections128x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[145] ==> TD_PL_quelques_corrections129x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[147] ==> TD_PL_quelques_corrections130x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[148] ==> TD_PL_quelques_corrections131x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[149] ==> TD_PL_quelques_corrections132x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[150] ==> TD_PL_quelques_corrections133x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[151] ==> TD_PL_quelques_corrections134x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[152] ==> TD_PL_quelques_corrections135x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[153] ==> TD_PL_quelques_corrections136x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[154] ==> TD_PL_quelques_corrections137x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[155] ==> TD_PL_quelques_corrections138x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[156] ==> TD_PL_quelques_corrections139x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[157] ==> TD_PL_quelques_corrections140x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[158] ==> TD_PL_quelques_corrections141x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[159] ==> TD_PL_quelques_corrections142x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[160] ==> TD_PL_quelques_corrections143x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[161] ==> TD_PL_quelques_corrections144x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[162] ==> TD_PL_quelques_corrections145x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[163] ==> TD_PL_quelques_corrections146x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[165] ==> TD_PL_quelques_corrections147x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[166] ==> TD_PL_quelques_corrections148x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[167] ==> TD_PL_quelques_corrections149x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[168] ==> TD_PL_quelques_corrections150x.png ---
+Css: #TBL-18 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+Css: #TBL-18{border-collapse:collapse;}
+--- needs --- TD_PL_quelques_corrections.idv[170] ==> TD_PL_quelques_corrections151x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[171] ==> TD_PL_quelques_corrections152x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[172] ==> TD_PL_quelques_corrections153x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[173] ==> TD_PL_quelques_corrections154x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[174] ==> TD_PL_quelques_corrections155x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[175] ==> TD_PL_quelques_corrections156x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[176] ==> TD_PL_quelques_corrections157x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[177] ==> TD_PL_quelques_corrections158x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[178] ==> TD_PL_quelques_corrections159x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[179] ==> TD_PL_quelques_corrections160x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[180] ==> TD_PL_quelques_corrections161x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[181] ==> TD_PL_quelques_corrections162x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[182] ==> TD_PL_quelques_corrections163x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[183] ==> TD_PL_quelques_corrections164x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[184] ==> TD_PL_quelques_corrections165x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[185] ==> TD_PL_quelques_corrections166x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[186] ==> TD_PL_quelques_corrections167x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[187] ==> TD_PL_quelques_corrections168x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[188] ==> TD_PL_quelques_corrections169x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[189] ==> TD_PL_quelques_corrections170x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[190] ==> TD_PL_quelques_corrections171x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[191] ==> TD_PL_quelques_corrections172x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[192] ==> TD_PL_quelques_corrections173x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[193] ==> TD_PL_quelques_corrections174x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[194] ==> TD_PL_quelques_corrections175x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[195] ==> TD_PL_quelques_corrections176x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[196] ==> TD_PL_quelques_corrections177x.png ---
+Css: #TBL-20 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+Css: #TBL-20{border-collapse:collapse;}
+--- needs --- TD_PL_quelques_corrections.idv[197] ==> TD_PL_quelques_corrections178x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[198] ==> TD_PL_quelques_corrections179x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[199] ==> TD_PL_quelques_corrections180x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[200] ==> TD_PL_quelques_corrections181x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[201] ==> TD_PL_quelques_corrections182x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[202] ==> TD_PL_quelques_corrections183x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[203] ==> TD_PL_quelques_corrections184x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[204] ==> TD_PL_quelques_corrections185x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[205] ==> TD_PL_quelques_corrections186x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[206] ==> TD_PL_quelques_corrections187x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[207] ==> TD_PL_quelques_corrections188x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[208] ==> TD_PL_quelques_corrections189x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[209] ==> TD_PL_quelques_corrections190x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[210] ==> TD_PL_quelques_corrections191x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[211] ==> TD_PL_quelques_corrections192x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[212] ==> TD_PL_quelques_corrections193x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[213] ==> TD_PL_quelques_corrections194x.png ---
+File: TD03-01.png
+--- needs --- TD_PL_quelques_corrections.idv[215] ==> TD_PL_quelques_corrections195x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[216] ==> TD_PL_quelques_corrections196x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[217] ==> TD_PL_quelques_corrections197x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[218] ==> TD_PL_quelques_corrections198x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[219] ==> TD_PL_quelques_corrections199x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[220] ==> TD_PL_quelques_corrections200x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[221] ==> TD_PL_quelques_corrections201x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[222] ==> TD_PL_quelques_corrections202x.png ---
+Css: #TBL-26 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+Css: #TBL-26{border-collapse:collapse;}
+--- needs --- TD_PL_quelques_corrections.idv[224] ==> TD_PL_quelques_corrections203x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[225] ==> TD_PL_quelques_corrections204x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[226] ==> TD_PL_quelques_corrections205x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[227] ==> TD_PL_quelques_corrections206x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[228] ==> TD_PL_quelques_corrections207x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[229] ==> TD_PL_quelques_corrections208x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[230] ==> TD_PL_quelques_corrections209x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[231] ==> TD_PL_quelques_corrections210x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[232] ==> TD_PL_quelques_corrections211x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[233] ==> TD_PL_quelques_corrections212x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[234] ==> TD_PL_quelques_corrections213x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[235] ==> TD_PL_quelques_corrections214x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[236] ==> TD_PL_quelques_corrections215x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[237] ==> TD_PL_quelques_corrections216x.png ---
+Css: #TBL-28 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+Css: #TBL-28{border-collapse:collapse;}
+--- needs --- TD_PL_quelques_corrections.idv[238] ==> TD_PL_quelques_corrections217x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[239] ==> TD_PL_quelques_corrections218x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[240] ==> TD_PL_quelques_corrections219x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[241] ==> TD_PL_quelques_corrections220x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[242] ==> TD_PL_quelques_corrections221x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[243] ==> TD_PL_quelques_corrections222x.png ---
+File: TD03-03.png
+--- needs --- TD_PL_quelques_corrections.idv[245] ==> TD_PL_quelques_corrections223x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[246] ==> TD_PL_quelques_corrections224x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[247] ==> TD_PL_quelques_corrections225x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[248] ==> TD_PL_quelques_corrections226x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[249] ==> TD_PL_quelques_corrections227x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[250] ==> TD_PL_quelques_corrections228x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[251] ==> TD_PL_quelques_corrections229x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[252] ==> TD_PL_quelques_corrections230x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[253] ==> TD_PL_quelques_corrections231x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[254] ==> TD_PL_quelques_corrections232x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[255] ==> TD_PL_quelques_corrections233x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[256] ==> TD_PL_quelques_corrections234x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[257] ==> TD_PL_quelques_corrections235x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[258] ==> TD_PL_quelques_corrections236x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[259] ==> TD_PL_quelques_corrections237x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[260] ==> TD_PL_quelques_corrections238x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[261] ==> TD_PL_quelques_corrections239x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[262] ==> TD_PL_quelques_corrections240x.png ---
+Css: #TBL-32 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+Css: #TBL-32{border-collapse:collapse;}
+--- needs --- TD_PL_quelques_corrections.idv[263] ==> TD_PL_quelques_corrections241x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[264] ==> TD_PL_quelques_corrections242x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[265] ==> TD_PL_quelques_corrections243x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[266] ==> TD_PL_quelques_corrections244x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[267] ==> TD_PL_quelques_corrections245x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[268] ==> TD_PL_quelques_corrections246x.png ---
+Css: #TBL-33 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+Css: #TBL-33{border-collapse:collapse;}
+--- needs --- TD_PL_quelques_corrections.idv[269] ==> TD_PL_quelques_corrections247x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[270] ==> TD_PL_quelques_corrections248x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[271] ==> TD_PL_quelques_corrections249x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[272] ==> TD_PL_quelques_corrections250x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[273] ==> TD_PL_quelques_corrections251x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[274] ==> TD_PL_quelques_corrections252x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[275] ==> TD_PL_quelques_corrections253x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[276] ==> TD_PL_quelques_corrections254x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[278] ==> TD_PL_quelques_corrections255x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[279] ==> TD_PL_quelques_corrections256x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[281] ==> TD_PL_quelques_corrections257x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[282] ==> TD_PL_quelques_corrections258x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[283] ==> TD_PL_quelques_corrections259x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[284] ==> TD_PL_quelques_corrections260x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[286] ==> TD_PL_quelques_corrections261x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[287] ==> TD_PL_quelques_corrections262x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[288] ==> TD_PL_quelques_corrections263x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[289] ==> TD_PL_quelques_corrections264x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[290] ==> TD_PL_quelques_corrections265x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[291] ==> TD_PL_quelques_corrections266x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[292] ==> TD_PL_quelques_corrections267x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[293] ==> TD_PL_quelques_corrections268x.png ---
+Css: span#textcolor1{color:#038661}
+Css: span#textcolor2{color:#038661}
+Css: span#textcolor3{color:#038661}
+Css: span#textcolor4{color:#A20F61}
+Css: span#textcolor5{color:#A20F61}
+Css: span#textcolor6{color:#A20F61}
+Css: span#textcolor7{color:#2894D2}
+Css: span#textcolor8{color:#B15004}
+Css: span#textcolor9{color:#A20F61}
+Css: span#textcolor10{color:#A20F61}
+Css: span#textcolor11{color:#2894D2}
+Css: span#textcolor12{color:#B15004}
+Css: span#textcolor13{color:#A20F61}
+Css: span#textcolor14{color:#A20F61}
+Css: span#textcolor15{color:#A20F61}
+Css: span#textcolor16{color:#2894D2}
+Css: span#textcolor17{color:#B15004}
+--- needs --- TD_PL_quelques_corrections.idv[295] ==> TD_PL_quelques_corrections269x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[296] ==> TD_PL_quelques_corrections270x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[297] ==> TD_PL_quelques_corrections271x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[299] ==> TD_PL_quelques_corrections272x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[300] ==> TD_PL_quelques_corrections273x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[301] ==> TD_PL_quelques_corrections274x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[302] ==> TD_PL_quelques_corrections275x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[303] ==> TD_PL_quelques_corrections276x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[304] ==> TD_PL_quelques_corrections277x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[305] ==> TD_PL_quelques_corrections278x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[306] ==> TD_PL_quelques_corrections279x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[307] ==> TD_PL_quelques_corrections280x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[308] ==> TD_PL_quelques_corrections281x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[309] ==> TD_PL_quelques_corrections282x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[310] ==> TD_PL_quelques_corrections283x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[311] ==> TD_PL_quelques_corrections284x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[313] ==> TD_PL_quelques_corrections285x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[314] ==> TD_PL_quelques_corrections286x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[315] ==> TD_PL_quelques_corrections287x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[316] ==> TD_PL_quelques_corrections288x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[317] ==> TD_PL_quelques_corrections289x.png ---
+Css: span#textcolor18{color:#B15004}
+Css: span#textcolor19{color:#B15004}
+Css: span#textcolor20{color:#B15004}
+Css: span#textcolor21{color:#B15004}
+--- needs --- TD_PL_quelques_corrections.idv[319] ==> TD_PL_quelques_corrections290x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[320] ==> TD_PL_quelques_corrections291x.png ---
+Css: span#textcolor22{color:#B15004}
+--- needs --- TD_PL_quelques_corrections.idv[322] ==> TD_PL_quelques_corrections292x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[323] ==> TD_PL_quelques_corrections293x.png ---
+Css: span#textcolor23{color:#B15004}
+--- needs --- TD_PL_quelques_corrections.idv[325] ==> TD_PL_quelques_corrections294x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[326] ==> TD_PL_quelques_corrections295x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[327] ==> TD_PL_quelques_corrections296x.png ---
+Css: span#textcolor24{color:#B15004}
+--- needs --- TD_PL_quelques_corrections.idv[329] ==> TD_PL_quelques_corrections297x.png ---
+Css: span#textcolor25{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[331] ==> TD_PL_quelques_corrections298x.png ---
+Css: span#textcolor26{color:#B15004}
+--- needs --- TD_PL_quelques_corrections.idv[333] ==> TD_PL_quelques_corrections299x.png ---
+Css: span#textcolor27{color:#B15004}
+--- needs --- TD_PL_quelques_corrections.idv[335] ==> TD_PL_quelques_corrections300x.png ---
+Css: span#textcolor28{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[337] ==> TD_PL_quelques_corrections301x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[338] ==> TD_PL_quelques_corrections302x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[339] ==> TD_PL_quelques_corrections303x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[341] ==> TD_PL_quelques_corrections304x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[342] ==> TD_PL_quelques_corrections305x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[343] ==> TD_PL_quelques_corrections306x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[344] ==> TD_PL_quelques_corrections307x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[345] ==> TD_PL_quelques_corrections308x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[346] ==> TD_PL_quelques_corrections309x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[347] ==> TD_PL_quelques_corrections310x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[348] ==> TD_PL_quelques_corrections311x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[350] ==> TD_PL_quelques_corrections312x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[351] ==> TD_PL_quelques_corrections313x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[352] ==> TD_PL_quelques_corrections314x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[353] ==> TD_PL_quelques_corrections315x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[354] ==> TD_PL_quelques_corrections316x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[355] ==> TD_PL_quelques_corrections317x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[356] ==> TD_PL_quelques_corrections318x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[358] ==> TD_PL_quelques_corrections319x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[359] ==> TD_PL_quelques_corrections320x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[360] ==> TD_PL_quelques_corrections321x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[361] ==> TD_PL_quelques_corrections322x.png ---
+Css: span#textcolor29{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[363] ==> TD_PL_quelques_corrections323x.png ---
+Css: span#textcolor30{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[365] ==> TD_PL_quelques_corrections324x.png ---
+Css: span#textcolor31{color:#5D3A9B}
+Css: span#textcolor32{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[367] ==> TD_PL_quelques_corrections325x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[369] ==> TD_PL_quelques_corrections326x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[370] ==> TD_PL_quelques_corrections327x.png ---
+Css: span#textcolor33{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[372] ==> TD_PL_quelques_corrections328x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[374] ==> TD_PL_quelques_corrections329x.png ---
+Css: span#textcolor34{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[376] ==> TD_PL_quelques_corrections330x.png ---
+Css: span#textcolor35{color:#002961}
+--- needs --- TD_PL_quelques_corrections.idv[378] ==> TD_PL_quelques_corrections331x.png ---
+Css: span#textcolor36{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[380] ==> TD_PL_quelques_corrections332x.png ---
+Css: span#textcolor37{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[382] ==> TD_PL_quelques_corrections333x.png ---
+Css: span#textcolor38{color:#002961}
+--- needs --- TD_PL_quelques_corrections.idv[384] ==> TD_PL_quelques_corrections334x.png ---
+Css: span#textcolor39{color:#5D3A9B}
+Css: span#textcolor40{color:#002961}
+--- needs --- TD_PL_quelques_corrections.idv[386] ==> TD_PL_quelques_corrections335x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[388] ==> TD_PL_quelques_corrections336x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[389] ==> TD_PL_quelques_corrections337x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[390] ==> TD_PL_quelques_corrections338x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[391] ==> TD_PL_quelques_corrections339x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[392] ==> TD_PL_quelques_corrections340x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[393] ==> TD_PL_quelques_corrections341x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[394] ==> TD_PL_quelques_corrections342x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[396] ==> TD_PL_quelques_corrections343x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[397] ==> TD_PL_quelques_corrections344x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[398] ==> TD_PL_quelques_corrections345x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[399] ==> TD_PL_quelques_corrections346x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[400] ==> TD_PL_quelques_corrections347x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[401] ==> TD_PL_quelques_corrections348x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[402] ==> TD_PL_quelques_corrections349x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[403] ==> TD_PL_quelques_corrections350x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[404] ==> TD_PL_quelques_corrections351x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[405] ==> TD_PL_quelques_corrections352x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[407] ==> TD_PL_quelques_corrections353x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[408] ==> TD_PL_quelques_corrections354x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[409] ==> TD_PL_quelques_corrections355x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[410] ==> TD_PL_quelques_corrections356x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[411] ==> TD_PL_quelques_corrections357x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[412] ==> TD_PL_quelques_corrections358x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[413] ==> TD_PL_quelques_corrections359x.png ---
+Css: span#textcolor41{color:#002961}
+--- needs --- TD_PL_quelques_corrections.idv[415] ==> TD_PL_quelques_corrections360x.png ---
+Css: span#textcolor42{color:#002961}
+--- needs --- TD_PL_quelques_corrections.idv[417] ==> TD_PL_quelques_corrections361x.png ---
+Css: span#textcolor43{color:#002961}
+--- needs --- TD_PL_quelques_corrections.idv[419] ==> TD_PL_quelques_corrections362x.png ---
+Css: span#textcolor44{color:#002961}
+--- needs --- TD_PL_quelques_corrections.idv[421] ==> TD_PL_quelques_corrections363x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[423] ==> TD_PL_quelques_corrections364x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[424] ==> TD_PL_quelques_corrections365x.png ---
+Css: span#textcolor45{color:#002961}
+--- needs --- TD_PL_quelques_corrections.idv[426] ==> TD_PL_quelques_corrections366x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[428] ==> TD_PL_quelques_corrections367x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[429] ==> TD_PL_quelques_corrections368x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[430] ==> TD_PL_quelques_corrections369x.png ---
+Css: span#textcolor46{color:#002961}
+--- needs --- TD_PL_quelques_corrections.idv[432] ==> TD_PL_quelques_corrections370x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[434] ==> TD_PL_quelques_corrections371x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[435] ==> TD_PL_quelques_corrections372x.png ---
+Css: span#textcolor47{color:#7F7F7F}
+--- needs --- TD_PL_quelques_corrections.idv[437] ==> TD_PL_quelques_corrections373x.png ---
+Css: span#textcolor48{color:#002961}
+--- needs --- TD_PL_quelques_corrections.idv[439] ==> TD_PL_quelques_corrections374x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[441] ==> TD_PL_quelques_corrections375x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[442] ==> TD_PL_quelques_corrections376x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[443] ==> TD_PL_quelques_corrections377x.png ---
+Css: span#textcolor49{color:#7F7F7F}
+--- needs --- TD_PL_quelques_corrections.idv[445] ==> TD_PL_quelques_corrections378x.png ---
+Css: span#textcolor50{color:#002961}
+--- needs --- TD_PL_quelques_corrections.idv[447] ==> TD_PL_quelques_corrections379x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[449] ==> TD_PL_quelques_corrections380x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[450] ==> TD_PL_quelques_corrections381x.png ---
+Css: span#textcolor51{color:#002961}
+--- needs --- TD_PL_quelques_corrections.idv[452] ==> TD_PL_quelques_corrections382x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[454] ==> TD_PL_quelques_corrections383x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[455] ==> TD_PL_quelques_corrections384x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[456] ==> TD_PL_quelques_corrections385x.png ---
+Css: span#textcolor52{color:#7F7F7F}
+--- needs --- TD_PL_quelques_corrections.idv[458] ==> TD_PL_quelques_corrections386x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[460] ==> TD_PL_quelques_corrections387x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[461] ==> TD_PL_quelques_corrections388x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[462] ==> TD_PL_quelques_corrections389x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[463] ==> TD_PL_quelques_corrections390x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[464] ==> TD_PL_quelques_corrections391x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[465] ==> TD_PL_quelques_corrections392x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[466] ==> TD_PL_quelques_corrections393x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[468] ==> TD_PL_quelques_corrections394x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[469] ==> TD_PL_quelques_corrections395x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[470] ==> TD_PL_quelques_corrections396x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[471] ==> TD_PL_quelques_corrections397x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[472] ==> TD_PL_quelques_corrections398x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[473] ==> TD_PL_quelques_corrections399x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[474] ==> TD_PL_quelques_corrections400x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[475] ==> TD_PL_quelques_corrections401x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[476] ==> TD_PL_quelques_corrections402x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[477] ==> TD_PL_quelques_corrections403x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[478] ==> TD_PL_quelques_corrections404x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[479] ==> TD_PL_quelques_corrections405x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[480] ==> TD_PL_quelques_corrections406x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[481] ==> TD_PL_quelques_corrections407x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[482] ==> TD_PL_quelques_corrections408x.png ---
+Css: span#textcolor53{color:#038661}
+Css: span#textcolor54{color:#038661}
+Css: span#textcolor55{color:#A20F61}
+Css: span#textcolor56{color:#A20F61}
+Css: span#textcolor57{color:#2894D2}
+Css: span#textcolor58{color:#B15004}
+Css: span#textcolor59{color:#A20F61}
+Css: span#textcolor60{color:#A20F61}
+Css: span#textcolor61{color:#2894D2}
+Css: span#textcolor62{color:#B15004}
+Css: span#textcolor63{color:#A20F61}
+Css: span#textcolor64{color:#A20F61}
+Css: span#textcolor65{color:#2894D2}
+Css: span#textcolor66{color:#B15004}
+--- needs --- TD_PL_quelques_corrections.idv[484] ==> TD_PL_quelques_corrections409x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[485] ==> TD_PL_quelques_corrections410x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[486] ==> TD_PL_quelques_corrections411x.png ---
+Css: span#textcolor67{color:#A20F61}
+Css: span#textcolor68{color:#A20F61}
+Css: span#textcolor69{color:#2894D2}
+Css: span#textcolor70{color:#B15004}
+Css: span#textcolor71{color:#A20F61}
+Css: span#textcolor72{color:#A20F61}
+Css: span#textcolor73{color:#2894D2}
+Css: span#textcolor74{color:#B15004}
+Css: span#textcolor75{color:#A20F61}
+Css: span#textcolor76{color:#A20F61}
+Css: span#textcolor77{color:#2894D2}
+Css: span#textcolor78{color:#B15004}
+Css: span#textcolor79{color:#2894D2}
+Css: span#textcolor80{color:#B15004}
+Css: span#textcolor81{color:#2894D2}
+Css: span#textcolor82{color:#B15004}
+Css: span#textcolor83{color:#2894D2}
+Css: span#textcolor84{color:#B15004}
+Css: span#textcolor85{color:#A20F61}
+Css: span#textcolor86{color:#A20F61}
+Css: span#textcolor87{color:#A20F61}
+Css: span#textcolor88{color:#A20F61}
+--- needs --- TD_PL_quelques_corrections.idv[488] ==> TD_PL_quelques_corrections412x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[489] ==> TD_PL_quelques_corrections413x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[490] ==> TD_PL_quelques_corrections414x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[491] ==> TD_PL_quelques_corrections415x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[493] ==> TD_PL_quelques_corrections416x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[494] ==> TD_PL_quelques_corrections417x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[495] ==> TD_PL_quelques_corrections418x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[496] ==> TD_PL_quelques_corrections419x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[497] ==> TD_PL_quelques_corrections420x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[498] ==> TD_PL_quelques_corrections421x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[499] ==> TD_PL_quelques_corrections422x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[501] ==> TD_PL_quelques_corrections423x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[502] ==> TD_PL_quelques_corrections424x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[503] ==> TD_PL_quelques_corrections425x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[504] ==> TD_PL_quelques_corrections426x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[505] ==> TD_PL_quelques_corrections427x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[506] ==> TD_PL_quelques_corrections428x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[507] ==> TD_PL_quelques_corrections429x.png ---
+Css: span#textcolor89{color:#A20F61}
+Css: span#textcolor90{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[509] ==> TD_PL_quelques_corrections430x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[510] ==> TD_PL_quelques_corrections431x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[511] ==> TD_PL_quelques_corrections432x.png ---
+Css: span#textcolor91{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[513] ==> TD_PL_quelques_corrections433x.png ---
+Css: span#textcolor92{color:#5D3A9B}
+Css: span#textcolor93{color:#5D3A9B}
+Css: span#textcolor94{color:#5D3A9B}
+Css: span#textcolor95{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[515] ==> TD_PL_quelques_corrections434x.png ---
+Css: span#textcolor96{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[517] ==> TD_PL_quelques_corrections435x.png ---
+Css: span#textcolor97{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[519] ==> TD_PL_quelques_corrections436x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[520] ==> TD_PL_quelques_corrections437x.png ---
+Css: span#textcolor98{color:#5D3A9B}
+Css: span#textcolor99{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[522] ==> TD_PL_quelques_corrections438x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[523] ==> TD_PL_quelques_corrections439x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[524] ==> TD_PL_quelques_corrections440x.png ---
+Css: span#textcolor100{color:#A20F61}
+Css: span#textcolor101{color:#A20F61}
+Css: span#textcolor102{color:#A20F61}
+Css: span#textcolor103{color:#A20F61}
+--- needs --- TD_PL_quelques_corrections.idv[526] ==> TD_PL_quelques_corrections441x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[528] ==> TD_PL_quelques_corrections442x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[529] ==> TD_PL_quelques_corrections443x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[530] ==> TD_PL_quelques_corrections444x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[531] ==> TD_PL_quelques_corrections445x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[532] ==> TD_PL_quelques_corrections446x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[533] ==> TD_PL_quelques_corrections447x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[534] ==> TD_PL_quelques_corrections448x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[535] ==> TD_PL_quelques_corrections449x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[537] ==> TD_PL_quelques_corrections450x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[538] ==> TD_PL_quelques_corrections451x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[539] ==> TD_PL_quelques_corrections452x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[540] ==> TD_PL_quelques_corrections453x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[541] ==> TD_PL_quelques_corrections454x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[542] ==> TD_PL_quelques_corrections455x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[543] ==> TD_PL_quelques_corrections456x.png ---
+Css: span#textcolor104{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[545] ==> TD_PL_quelques_corrections457x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[546] ==> TD_PL_quelques_corrections458x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[547] ==> TD_PL_quelques_corrections459x.png ---
+Css: span#textcolor105{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[549] ==> TD_PL_quelques_corrections460x.png ---
+Css: span#textcolor106{color:#5D3A9B}
+Css: span#textcolor107{color:#5D3A9B}
+Css: span#textcolor108{color:#5D3A9B}
+Css: span#textcolor109{color:#5D3A9B}
+Css: span#textcolor110{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[551] ==> TD_PL_quelques_corrections461x.png ---
+Css: span#textcolor111{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[553] ==> TD_PL_quelques_corrections462x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[554] ==> TD_PL_quelques_corrections463x.png ---
+Css: span#textcolor112{color:#5D3A9B}
+Css: span#textcolor113{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[556] ==> TD_PL_quelques_corrections464x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[557] ==> TD_PL_quelques_corrections465x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[558] ==> TD_PL_quelques_corrections466x.png ---
+Css: span#textcolor114{color:#A20F61}
+Css: span#textcolor115{color:#A20F61}
+Css: span#textcolor116{color:#A20F61}
+Css: span#textcolor117{color:#A20F61}
+--- needs --- TD_PL_quelques_corrections.idv[560] ==> TD_PL_quelques_corrections467x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[561] ==> TD_PL_quelques_corrections468x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[562] ==> TD_PL_quelques_corrections469x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[563] ==> TD_PL_quelques_corrections470x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[564] ==> TD_PL_quelques_corrections471x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[565] ==> TD_PL_quelques_corrections472x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[567] ==> TD_PL_quelques_corrections473x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[568] ==> TD_PL_quelques_corrections474x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[569] ==> TD_PL_quelques_corrections475x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[571] ==> TD_PL_quelques_corrections476x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[572] ==> TD_PL_quelques_corrections477x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[573] ==> TD_PL_quelques_corrections478x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[574] ==> TD_PL_quelques_corrections479x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[575] ==> TD_PL_quelques_corrections480x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[576] ==> TD_PL_quelques_corrections481x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[577] ==> TD_PL_quelques_corrections482x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[578] ==> TD_PL_quelques_corrections483x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[579] ==> TD_PL_quelques_corrections484x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[580] ==> TD_PL_quelques_corrections485x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[581] ==> TD_PL_quelques_corrections486x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[582] ==> TD_PL_quelques_corrections487x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[583] ==> TD_PL_quelques_corrections488x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[585] ==> TD_PL_quelques_corrections489x.png ---
+Css: span#textcolor118{color:#5D3A9B}
+Css: span#textcolor119{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[587] ==> TD_PL_quelques_corrections490x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[588] ==> TD_PL_quelques_corrections491x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[589] ==> TD_PL_quelques_corrections492x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[590] ==> TD_PL_quelques_corrections493x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[591] ==> TD_PL_quelques_corrections494x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[592] ==> TD_PL_quelques_corrections495x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[593] ==> TD_PL_quelques_corrections496x.png ---
+Css: span#textcolor120{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[595] ==> TD_PL_quelques_corrections497x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[596] ==> TD_PL_quelques_corrections498x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[597] ==> TD_PL_quelques_corrections499x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[598] ==> TD_PL_quelques_corrections500x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[599] ==> TD_PL_quelques_corrections501x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[600] ==> TD_PL_quelques_corrections502x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[601] ==> TD_PL_quelques_corrections503x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[602] ==> TD_PL_quelques_corrections504x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[603] ==> TD_PL_quelques_corrections505x.png ---
+Css: span#textcolor121{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[605] ==> TD_PL_quelques_corrections506x.png ---
+Css: span#textcolor122{color:#5D3A9B}
+Css: span#textcolor123{color:#5D3A9B}
+Css: span#textcolor124{color:#5D3A9B}
+Css: span#textcolor125{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[607] ==> TD_PL_quelques_corrections507x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[609] ==> TD_PL_quelques_corrections508x.png ---
+Css: span#textcolor126{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[611] ==> TD_PL_quelques_corrections509x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[613] ==> TD_PL_quelques_corrections510x.png ---
+Css: span#textcolor127{color:#5D3A9B}
+--- needs --- TD_PL_quelques_corrections.idv[615] ==> TD_PL_quelques_corrections511x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[617] ==> TD_PL_quelques_corrections512x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[618] ==> TD_PL_quelques_corrections513x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[620] ==> TD_PL_quelques_corrections514x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[621] ==> TD_PL_quelques_corrections515x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[622] ==> TD_PL_quelques_corrections516x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[623] ==> TD_PL_quelques_corrections517x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[624] ==> TD_PL_quelques_corrections518x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[625] ==> TD_PL_quelques_corrections519x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[626] ==> TD_PL_quelques_corrections520x.png ---
+Css: span#textcolor128{color:#A20F61}
+Css: span#textcolor129{color:#A20F61}
+Css: span#textcolor130{color:#A20F61}
+Css: span#textcolor131{color:#A20F61}
+--- needs --- TD_PL_quelques_corrections.idv[628] ==> TD_PL_quelques_corrections521x.png ---
+Css: span#textcolor132{color:#A20F61}
+Css: span#textcolor133{color:#A20F61}
+Css: span#textcolor134{color:#A20F61}
+--- needs --- TD_PL_quelques_corrections.idv[630] ==> TD_PL_quelques_corrections522x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[631] ==> TD_PL_quelques_corrections523x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[632] ==> TD_PL_quelques_corrections524x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[633] ==> TD_PL_quelques_corrections525x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[634] ==> TD_PL_quelques_corrections526x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[635] ==> TD_PL_quelques_corrections527x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[636] ==> TD_PL_quelques_corrections528x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[637] ==> TD_PL_quelques_corrections529x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[638] ==> TD_PL_quelques_corrections530x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[639] ==> TD_PL_quelques_corrections531x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[640] ==> TD_PL_quelques_corrections532x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[642] ==> TD_PL_quelques_corrections533x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[643] ==> TD_PL_quelques_corrections534x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[644] ==> TD_PL_quelques_corrections535x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[645] ==> TD_PL_quelques_corrections536x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[646] ==> TD_PL_quelques_corrections537x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[647] ==> TD_PL_quelques_corrections538x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[648] ==> TD_PL_quelques_corrections539x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[649] ==> TD_PL_quelques_corrections540x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[650] ==> TD_PL_quelques_corrections541x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[651] ==> TD_PL_quelques_corrections542x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[652] ==> TD_PL_quelques_corrections543x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[654] ==> TD_PL_quelques_corrections544x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[655] ==> TD_PL_quelques_corrections545x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[656] ==> TD_PL_quelques_corrections546x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[657] ==> TD_PL_quelques_corrections547x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[658] ==> TD_PL_quelques_corrections548x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[659] ==> TD_PL_quelques_corrections549x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[660] ==> TD_PL_quelques_corrections550x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[661] ==> TD_PL_quelques_corrections551x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[662] ==> TD_PL_quelques_corrections552x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[663] ==> TD_PL_quelques_corrections553x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[664] ==> TD_PL_quelques_corrections554x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[665] ==> TD_PL_quelques_corrections555x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[667] ==> TD_PL_quelques_corrections556x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[668] ==> TD_PL_quelques_corrections557x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[669] ==> TD_PL_quelques_corrections558x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[671] ==> TD_PL_quelques_corrections559x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[672] ==> TD_PL_quelques_corrections560x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[674] ==> TD_PL_quelques_corrections561x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[676] ==> TD_PL_quelques_corrections562x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[677] ==> TD_PL_quelques_corrections563x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[678] ==> TD_PL_quelques_corrections564x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[679] ==> TD_PL_quelques_corrections565x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[680] ==> TD_PL_quelques_corrections566x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[682] ==> TD_PL_quelques_corrections567x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[683] ==> TD_PL_quelques_corrections568x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[684] ==> TD_PL_quelques_corrections569x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[685] ==> TD_PL_quelques_corrections570x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[687] ==> TD_PL_quelques_corrections571x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[688] ==> TD_PL_quelques_corrections572x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[689] ==> TD_PL_quelques_corrections573x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[691] ==> TD_PL_quelques_corrections574x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[692] ==> TD_PL_quelques_corrections575x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[693] ==> TD_PL_quelques_corrections576x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[694] ==> TD_PL_quelques_corrections577x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[695] ==> TD_PL_quelques_corrections578x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[696] ==> TD_PL_quelques_corrections579x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[698] ==> TD_PL_quelques_corrections580x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[699] ==> TD_PL_quelques_corrections581x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[700] ==> TD_PL_quelques_corrections582x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[701] ==> TD_PL_quelques_corrections583x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[702] ==> TD_PL_quelques_corrections584x.png ---
+--- needs --- TD_PL_quelques_corrections.idv[704] ==> TD_PL_quelques_corrections585x.png ---
+--- characters ---
+Font("cmex","10","10","100")
+Font("cmr","7","7","100")
+Font("cmr","10","10","100")
+Font("cmmi","7","7","100")
+Font("cmmi","10","10","100")
+Font("cmsy","7","7","100")
+Font("cmsy","10","10","100")
+Font("ecrm","1000","10","100")
+Font("ecrm","1728","17","100")
+Font("ecrm","1200","12","100")
+Font("ectt","1000","10","100")
+Font("ecbx","1000","10","100")
+Font("msam","10","10","100")
+Font("msbm","10","10","100")
+Font("tctt","1000","10","100")
+Font("tcrm","1000","10","100")
+Font("ecbx","0700","7","100")
+Font("ecti","1000","10","100")
+Font("ecbi","1000","10","100")
